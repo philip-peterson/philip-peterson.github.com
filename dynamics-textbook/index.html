@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <h1>Vectors: not what they taught you in school</h1>
+
+
+        <p>Euclidean vectors (henceforth just "vectors") aren't what you probably think they are. They are <strong>not</strong> lists of numbers. A common misconception is that a vector is an n-tuple
+        of coordinates, or an n&times;1 matrix.
+
+        <p>That is <strong>not</strong> the case! Let's see the real definition...
+
+        <blockquote>A Euclidean vector is a geometric object that has a definite magnitude and direction.</blockquote>
+
+        <p>Vectors are geometric objects. They exist in space, and have both definite length (magnitude) and definite direction. That's it. No numbers!
+        You may find this comforting &mdash; or perhaps disquieting. Either way, vectors have absolutely nothing to do with numbers, in and of themselves.
+
+        <p>"But Philip," you contend. "Vectors are measured with numbers." That is true. But you know what else is measured with numbers? Everything.
+
+        <p>The point is, "numbers" do not give rise to a vector, just as "teaspoons" do not give rise to sugar. Sorry... :(
+
+        <h2>Coordinate systems</h2>
+        <p>Coordinate systems are very simple to explain, but often are never defined.
+        <p>A coordinate system is a system (sorry, no better word) for transforming tuples of numbers into points in space.
+        <p>Pretty simple, right? Now, you're probably most familiar with cartesian coordinate systems,
+        but there are other kinds of coordinate systems you've heard of, as well. One example is the polar coordinate system.
+        <p>The polar coordinate system is a slightly different idea, but just like the cartesian coordinate system, it maps 2-tuples (i.e. pairs of numbers) to points in <b>E<sup>2</sup></b>.
+        <p>One key difference is that in polar coordinates, each point can be represented by many different tuples, which doesn't happen in cartesian coordinates.
+        <p>However, you don't always need <i>n</i> numbers to represent points in <b>E<sup>n</sup></b>. In fact, you're probably familiar with a coordinate system that maps two coordinates
+        to points in <b>E<sup>3</sup></b>. Try to think of one (really! It's not that hard, and thinking is good for you)...
+        <p><input type='button' value="I've got it!"> <input type='button' value="I can't think of one...">
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
